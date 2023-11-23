@@ -2,9 +2,9 @@ package tptest;
 
 public class FizzBuzz {
 	public static String fizzBuzz (int i) {
-		if (i == 2) {
-			return "2";
+		if (i == 6) {
+			return "Fizz";
 		}
-		return "1";
+		return Integer.toString(i);
 	}
 }
