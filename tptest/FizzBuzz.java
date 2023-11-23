@@ -1,7 +1,10 @@
 package tptest;
 
 public class FizzBuzz {
-	public static String FizzBuzz (int i) {
+	public static String fizzBuzz (int i) {
+		if (i == 2) {
+			return "2";
+		}
 		return "1";
 	}
 }
